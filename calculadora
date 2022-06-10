@@ -1,0 +1,21 @@
+#include <stdlib.h>
+#include <stdio.h>
+int main()
+{
+    system("chcp 1252>nul");
+    int soma,sub,multi,div,num1,num2;
+    printf("Entre com 2 números\n");
+    scanf("%i%i", &num1,&num2);
+
+    soma = num1+num2;
+    sub = num1-num2;
+    multi=num1*num2;
+    div=num1/num2;
+
+    printf("A soma dos 2 valores é: %i\n", soma);
+    printf("A subtração dos 2 valores é: %i\n", sub);
+    printf("A multiplicação dos 2 valores é: %i\n", multi);
+    printf("A divisão dos 2 valores é: %i\n", div);
+
+    return 0;
+}
